@@ -56,23 +56,23 @@
         <hotspot>
           <position/>
           <next>
-            <pan>24.1</pan>
-            <tilt>13.3</tilt>
-            <fov>58.4</fov>
+            <pan>-85.1</pan>
+            <tilt>-0.9</tilt>
+            <fov>77.5</fov>
           </next>
           <polygon>
-            <polystring>-128.67/19.42|-129.88/-23.1|-174.72/-23.02|-174.37/20.18</polystring>
+            <polystring>-128.35/19.86|-129.67/-23.63|-174.96/-23.09|-174.62/20.32</polystring>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
             <bordercolor>#0000ff</bordercolor>
           </polygon>
           <type>poly</type>
           <id>Poly01</id>
-          <title>Вернуться к аудиториям</title>
+          <title>Назад к аудиториям</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node5}</url>
-          <target>24.1/13.3/58.4</target>
+          <url>{node13}</url>
+          <target>-85.1/-0.9/77.5</target>
         </hotspot>
       </hotspots>
       <output/>
@@ -85,75 +85,57 @@
       <input>
         <patch/>
         <type>cylindrical</type>
-        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/panorama_2 (1).jpg</filename>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_2.1.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
         <levelroll>0</levelroll>
       </input>
       <viewingparameter>
-        <pan/>
-        <tilt/>
-        <fov/>
-        <flyinstart/>
+        <pan>
+          <start>95.86</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>-1.96</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>77.54</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
         <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-22T00:40:41</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2021-03-05T10:53:25</capturedatetime>
         <datetime>05.03.2021 10:53</datetime>
         <tags>Панорамы</tags>
-        <author>Пащенко А.И.</author>
+        <title>Коридор #1</title>
         <altitude>-10000</altitude>
         <usealtitude>0</usealtitude>
-        <title>Коридор #1</title>
         <description>Проход к аудиториям через коридор</description>
+        <author>Пащенко А.И.</author>
       </userdata>
       <floorplans/>
       <hotspots>
         <hotspot>
-          <position/>
-          <next>
-            <pan>-170.2</pan>
-            <tilt>0.5</tilt>
-            <fov>77.2</fov>
-          </next>
-          <polygon>
-            <polystring>-305.62/32.28|-307.47/-14.35|-4.12/-14.51|-7.02/32.41</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Назад к аудиториям</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node6}</url>
-          <target>-170.2/0.5/77.2</target>
-        </hotspot>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>0</pan>
-            <tilt>0</tilt>
-            <fov>0</fov>
-          </next>
-          <polygon>
-            <polystring>-171.54/-23.87|-144.24/-23.14|-145.58/1.62|-170.81/1.67</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly02</id>
-          <title>Пройти к холлу</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node7}</url>
-        </hotspot>
-        <hotspot>
           <position>
-            <pan>-104.78</pan>
-            <tilt>6.02</tilt>
+            <pan>-210.42</pan>
+            <tilt>13.95</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -164,7 +146,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>К4-206:Студенческая лаборатория робототехники и мехатроники ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</title>
+          <title>Студенческая лаборатория робототехники и мехатроники⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>hotspot_info</skinid>
@@ -175,12 +157,151 @@
           <width>0</width>
           <height>0</height>
         </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-248.81/14.86|-249.38/-14.77|-275.61/-15.25|-275.86/-15.22|-275.97/-13.12|-277.68/-12.54|-277.66/14.44</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выход в холл</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node7}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>-170.4</pan>
+            <tilt>0.5</tilt>
+            <fov>77.2</fov>
+          </next>
+          <polygon>
+            <polystring>-57.5/21.31|-58.24/-23.25|-110.86/-23.32|-111.42/21.31</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly02</id>
+          <title>Назад по коридору</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>-170.4/0.5/77.2</target>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-150.79/27.09|-150.65/-37.53|-172.26/-39.21|-177.95/-39.22|-196.25/-37.96|-196.69/26.94</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>Войти в аудиторию</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node19}</url>
+        </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node5</id>
+      <id>node13</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_16.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>0</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-22T01:18:01</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-05-20T11:16:14</capturedatetime>
+        <datetime>20.05.2021 11:16</datetime>
+        <tags>Панорамы</tags>
+        <title>Аудитория 206</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <author>Пащенко А.И.</author>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>64.3</pan>
+            <tilt>-3.2</tilt>
+            <fov>77.5</fov>
+          </next>
+          <polygon>
+            <polystring>-245.85/-19.96|-227.47/-21.19|-227.28/-13.91|-227.7/-13.86|-227.71/-13.34|-226.53/-10.98|-226.87/19.7|-246.65/18.29</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node13}</url>
+          <target>64.3/-3.2/77.5</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node19</id>
     </panorama>
     <panorama>
       <input>
@@ -257,12 +378,12 @@
         <hotspot>
           <position/>
           <next>
-            <pan>-157.2</pan>
-            <tilt>-7.5</tilt>
-            <fov>70</fov>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
           </next>
           <polygon>
-            <polystring>-327.47/20.57|-325.49/-20.69|-14.29/-22.03|-12.96/20.15</polystring>
+            <polystring>-12.55/-20.7|-327.7/-20.7|-328.34/19.45|-13.81/18.22</polystring>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
             <bordercolor>#0000ff</bordercolor>
@@ -272,8 +393,67 @@
           <title>Далее к аудиториям</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node5}</url>
-          <target>-157.2/-7.5/70.0</target>
+          <url>{node13}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-265.28/30.65|-263.67/-39.45|-314.17/-29.24|-315.48/20.47</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>Войти в аудиторию</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node16}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-108.7/24.08|-109.91/-36.75|-135.32/-28.6|-133.86/17.84</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>Войти в аудиторию</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node17}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-24.83/16.83|-24.39/-28.32|-47.76/-36.53|-48.1/22.96</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly05</id>
+          <title>Войти в аудиторию</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node18}</url>
         </hotspot>
         <hotspot>
           <position>
@@ -356,6 +536,240 @@
       <streetviewproject/>
       <sounds/>
       <id>node6</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_14.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>57.08</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>5.56</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>63.71</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-22T01:05:33</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-05-15T14:08:37</capturedatetime>
+        <datetime>15.05.2021 14:08</datetime>
+        <tags>Панорамы</tags>
+        <title>Аудитория 207</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <author>Пащенко А.И.</author>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>-77.3</pan>
+            <tilt>-0.6</tilt>
+            <fov>77.2</fov>
+          </next>
+          <polygon>
+            <polystring>-171.29/13.4|-170.85/-17.03|-187.85/-20.67|-187.79/-18.6|-188.59/-18.14|-188.68/-16.22|-189.13/-15.65|-189.39/-14.67|-190.3/-15.33|-191.29/-14.93|-191.75/15.73</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>-77.3/-0.6/77.2</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node16</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_15.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>-83.99</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>0.09</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>76.91</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-22T01:09:47</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-05-15T14:42:17</capturedatetime>
+        <datetime>15.05.2021 14:42</datetime>
+        <tags>Панорамы</tags>
+        <title>Аудитория 216</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <author>Пащенко А.И.</author>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>67.3</pan>
+            <tilt>-0.8</tilt>
+            <fov>77.2</fov>
+          </next>
+          <polygon>
+            <polystring>-149.43/16.77|-150.7/-23.23|-168.4/-20.87|-167.42/15.92</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>67.3/-0.8/77.2</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node17</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_17.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>112.55</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>4.86</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>71.92</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-22T01:14:25</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-05-21T12:17:28</capturedatetime>
+        <datetime>21.05.2021 12:17</datetime>
+        <tags>Панорамы</tags>
+        <title>Аудитория 217</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <author>Пащенко А.И.</author>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>130.9</pan>
+            <tilt>5.4</tilt>
+            <fov>77.2</fov>
+          </next>
+          <polygon>
+            <polystring>-129.16/-22.03|-145.75/-24.32|-145.21/-23.15|-145.17/-21.93|-146.4/-21.33|-147.35/-21.13|-148.03/16.6|-129.82/15.58</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node6}</url>
+          <target>130.9/5.4/77.2</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node18</id>
     </panorama>
     <panorama>
       <input>
@@ -448,6 +862,27 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node6}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>-125.8</pan>
+            <tilt>2.7</tilt>
+            <fov>65.7</fov>
+          </next>
+          <polygon>
+            <polystring>-166.33/18.92|-156.43/12.78|-157.1/-7.12|-167.09/-15.15</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly03</id>
+          <title>Пройти к кабинету кафедры</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node9}</url>
+          <target>-125.8/2.7/65.7</target>
         </hotspot>
       </hotspots>
       <output/>
@@ -567,6 +1002,26 @@
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>
+        </hotspot>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>0</pan>
+            <tilt>0</tilt>
+            <fov>0</fov>
+          </next>
+          <polygon>
+            <polystring>-143.82/15.33|-143.86/-21.85|-164.74/-24.64|-164.83/16.92</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly04</id>
+          <title>Войти в аудиторию</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node15}</url>
         </hotspot>
         <hotspot>
           <position>
@@ -700,8 +1155,8 @@
         </hotspot>
         <hotspot>
           <position>
-            <pan>-109.54</pan>
-            <tilt>10.65</tilt>
+            <pan>-109.85</pan>
+            <tilt>10.54</tilt>
             <fov>10</fov>
           </position>
           <next>
@@ -729,6 +1184,84 @@
       <streetviewproject/>
       <sounds/>
       <id>node9</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_13.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>-176.21</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>4.12</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>70</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-22T01:00:43</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-05-11T15:41:25</capturedatetime>
+        <datetime>11.05.2021 15:41</datetime>
+        <tags>Панорамы</tags>
+        <title>Аудитория 209</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <author>Пащенко А.И.</author>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>5.9</pan>
+            <tilt>-0.3</tilt>
+            <fov>70</fov>
+          </next>
+          <polygon>
+            <polystring>-67.13/-20.4|-67.35/-19.57|-69.3/-19.02|-69.97/-18.71|-70.03/-17.65|-68.97/-11.16|-69.13/-8.51|-68.24/13.32|-52.88/11.94|-54.07/-20.32|-67.49/-21.9|-67.98/-20.97</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node1}</url>
+          <target>5.9/-0.3/70.0</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node15</id>
     </panorama>
     <panorama>
       <input>
@@ -878,6 +1411,84 @@
       <input>
         <patch/>
         <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_10.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>-52.45</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>-2.51</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>85.2</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-14T04:19:27</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-03-25T14:23:47</capturedatetime>
+        <datetime>25.03.2021 14:23</datetime>
+        <tags>Панорамы</tags>
+        <author>Пащенко А.И.</author>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <title>Аудитория 210</title>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>-50.2</pan>
+            <tilt>-0.1</tilt>
+            <fov>86.6</fov>
+          </next>
+          <polygon>
+            <polystring>-312.14/14.62|-311.42/-22.36|-329.85/-21.85|-330.22/13.35</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node3}</url>
+          <target>-50.2/-0.1/86.6</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node10</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
         <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_8.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
@@ -1022,6 +1633,84 @@
       <input>
         <patch/>
         <type>cylindrical</type>
+        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_11.jpg</filename>
+        <videotype>equi</videotype>
+        <levelpitch>0</levelpitch>
+        <levelroll>0</levelroll>
+      </input>
+      <viewingparameter>
+        <pan>
+          <start>-59.98</start>
+          <min>0</min>
+          <max>360</max>
+        </pan>
+        <tilt>
+          <start>1.43</start>
+          <min>-90</min>
+          <max>90</max>
+        </tilt>
+        <fov>
+          <start>75.32</start>
+          <minunit>pixels</minunit>
+          <minpixels>2</minpixels>
+          <max>120</max>
+          <maxfovstereographic>270</maxfovstereographic>
+          <maxfovfisheye>360</maxfovfisheye>
+        </fov>
+        <flyinstart>
+          <pan>0</pan>
+          <tilt>-90</tilt>
+          <fov>170</fov>
+        </flyinstart>
+        <pannorth>0</pannorth>
+        <scaletofit>1</scaletofit>
+        <projection>rectilinear</projection>
+        <flyinprojection>stereo</flyinprojection>
+        <defaultviewtimestamp>2021-05-14T04:23:59</defaultviewtimestamp>
+      </viewingparameter>
+      <userdata>
+        <capturedatetime>2021-03-27T13:54:17</capturedatetime>
+        <datetime>27.03.2021 13:54</datetime>
+        <tags>Панорамы</tags>
+        <title>Аудитория 211</title>
+        <altitude>-10000</altitude>
+        <usealtitude>0</usealtitude>
+        <author>Пащенко А.И.</author>
+      </userdata>
+      <floorplans/>
+      <hotspots>
+        <hotspot>
+          <position/>
+          <next>
+            <pan>-96</pan>
+            <tilt>1.4</tilt>
+            <fov>86.6</fov>
+          </next>
+          <polygon>
+            <polystring>-333.27/11.57|-334.54/-19.42|-343.74/-20.16|-343.14/-15.88|-344.77/-15.47|-344.58/-12.67|-347.86/-10.22|-348.12/-10.43|-348.5/-10.47|-347.61/13.25</polystring>
+            <usedefaultcolor>1</usedefaultcolor>
+            <backgroundcolor>#0000ff,64</backgroundcolor>
+            <bordercolor>#0000ff</bordercolor>
+          </polygon>
+          <type>poly</type>
+          <id>Poly01</id>
+          <title>Выйти из аудитории</title>
+          <linktype>node</linktype>
+          <linksubtype>unknown</linksubtype>
+          <url>{node4}</url>
+          <target>-96.0/1.4/86.6</target>
+        </hotspot>
+      </hotspots>
+      <output/>
+      <streetview/>
+      <streetviewproject/>
+      <sounds/>
+      <id>node11</id>
+    </panorama>
+    <panorama>
+      <input>
+        <patch/>
+        <type>cylindrical</type>
         <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_9.jpg</filename>
         <videotype>equi</videotype>
         <levelpitch>0</levelpitch>
@@ -1098,7 +1787,7 @@
             <fov>0</fov>
           </next>
           <polygon>
-            <polystring>-167.92/22.89|-166.86/-29.95|-191.28/-40.4|-191.38/31.43</polystring>
+            <polystring>-191.58/31.2|-190.8/-39.78|-189.7/-39.85|-167.06/-30.51|-168.01/22.82</polystring>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
             <bordercolor>#0000ff</bordercolor>
@@ -1108,7 +1797,7 @@
           <title>Войти в аудиторию</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
-          <url>{node12}</url>
+          <url>{node14}</url>
         </hotspot>
         <hotspot>
           <position>
@@ -1167,162 +1856,7 @@
       <sounds/>
       <id>node8</id>
     </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>cylindrical</type>
-        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_10.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan>
-          <start>-52.45</start>
-          <min>0</min>
-          <max>360</max>
-        </pan>
-        <tilt>
-          <start>-2.51</start>
-          <min>-90</min>
-          <max>90</max>
-        </tilt>
-        <fov>
-          <start>85.2</start>
-          <minunit>pixels</minunit>
-          <minpixels>2</minpixels>
-          <max>120</max>
-          <maxfovstereographic>270</maxfovstereographic>
-          <maxfovfisheye>360</maxfovfisheye>
-        </fov>
-        <flyinstart>
-          <pan>0</pan>
-          <tilt>-90</tilt>
-          <fov>170</fov>
-        </flyinstart>
-        <pannorth>0</pannorth>
-        <scaletofit>1</scaletofit>
-        <projection>rectilinear</projection>
-        <flyinprojection>stereo</flyinprojection>
-        <defaultviewtimestamp>2021-05-14T04:19:27</defaultviewtimestamp>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2021-03-25T14:23:47</capturedatetime>
-        <datetime>25.03.2021 14:23</datetime>
-        <tags>Панорамы</tags>
-        <author>Пащенко А.И.</author>
-        <altitude>-10000</altitude>
-        <usealtitude>0</usealtitude>
-        <title>Аудитория 210</title>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>-50.2</pan>
-            <tilt>-0.1</tilt>
-            <fov>86.6</fov>
-          </next>
-          <polygon>
-            <polystring>-312.14/14.62|-311.42/-22.36|-329.85/-21.85|-330.22/13.35</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Вернуться в коридор</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node3}</url>
-          <target>-50.2/-0.1/86.6</target>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node10</id>
-    </panorama>
-    <panorama>
-      <input>
-        <patch/>
-        <type>cylindrical</type>
-        <filename>C:/Users/artyp/OneDrive/Рабочий стол/Диплом/Панорамы/Panorama_11.jpg</filename>
-        <videotype>equi</videotype>
-        <levelpitch>0</levelpitch>
-        <levelroll>0</levelroll>
-      </input>
-      <viewingparameter>
-        <pan>
-          <start>-59.98</start>
-          <min>0</min>
-          <max>360</max>
-        </pan>
-        <tilt>
-          <start>1.43</start>
-          <min>-90</min>
-          <max>90</max>
-        </tilt>
-        <fov>
-          <start>75.32</start>
-          <minunit>pixels</minunit>
-          <minpixels>2</minpixels>
-          <max>120</max>
-          <maxfovstereographic>270</maxfovstereographic>
-          <maxfovfisheye>360</maxfovfisheye>
-        </fov>
-        <flyinstart>
-          <pan>0</pan>
-          <tilt>-90</tilt>
-          <fov>170</fov>
-        </flyinstart>
-        <pannorth>0</pannorth>
-        <scaletofit>1</scaletofit>
-        <projection>rectilinear</projection>
-        <flyinprojection>stereo</flyinprojection>
-        <defaultviewtimestamp>2021-05-14T04:23:59</defaultviewtimestamp>
-      </viewingparameter>
-      <userdata>
-        <capturedatetime>2021-03-27T13:54:17</capturedatetime>
-        <datetime>27.03.2021 13:54</datetime>
-        <tags>Панорамы</tags>
-        <title>Аудитория 211</title>
-        <altitude>-10000</altitude>
-        <usealtitude>0</usealtitude>
-        <author>Пащенко А.И.</author>
-      </userdata>
-      <floorplans/>
-      <hotspots>
-        <hotspot>
-          <position/>
-          <next>
-            <pan>-96</pan>
-            <tilt>1.4</tilt>
-            <fov>86.6</fov>
-          </next>
-          <polygon>
-            <polystring>-333.27/11.57|-334.54/-19.42|-343.74/-20.16|-343.14/-15.88|-344.77/-15.47|-344.58/-12.67|-347.86/-10.22|-348.12/-10.43|-348.5/-10.47|-347.61/13.25</polystring>
-            <usedefaultcolor>1</usedefaultcolor>
-            <backgroundcolor>#0000ff,64</backgroundcolor>
-            <bordercolor>#0000ff</bordercolor>
-          </polygon>
-          <type>poly</type>
-          <id>Poly01</id>
-          <title>Вернуться в коридор</title>
-          <linktype>node</linktype>
-          <linksubtype>unknown</linksubtype>
-          <url>{node4}</url>
-          <target>-96.0/1.4/86.6</target>
-        </hotspot>
-      </hotspots>
-      <output/>
-      <streetview/>
-      <streetviewproject/>
-      <sounds/>
-      <id>node11</id>
-    </panorama>
+    <start>node1</start>
     <panorama>
       <input>
         <patch/>
@@ -1334,17 +1868,17 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>-23.18</start>
+          <start>-91.16</start>
           <min>0</min>
           <max>360</max>
         </pan>
         <tilt>
-          <start>1.52</start>
+          <start>2.87</start>
           <min>-90</min>
           <max>90</max>
         </tilt>
         <fov>
-          <start>74.84</start>
+          <start>70</start>
           <minunit>pixels</minunit>
           <minpixels>2</minpixels>
           <max>120</max>
@@ -1360,7 +1894,7 @@
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
-        <defaultviewtimestamp>2021-05-14T04:29:30</defaultviewtimestamp>
+        <defaultviewtimestamp>2021-05-22T00:50:31</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2021-04-03T13:59:39</capturedatetime>
@@ -1376,32 +1910,31 @@
         <hotspot>
           <position/>
           <next>
-            <pan>-3.9</pan>
-            <tilt>0.6</tilt>
+            <pan>-0.6</pan>
+            <tilt>2.6</tilt>
             <fov>74</fov>
           </next>
           <polygon>
-            <polystring>-316.64/12.22|-315.96/-22.02|-333.88/-24.08|-334.5/12.91</polystring>
+            <polystring>-7.85/12.15|-7.09/-21.96|-24.98/-23.93|-25/12.41</polystring>
             <usedefaultcolor>1</usedefaultcolor>
             <backgroundcolor>#0000ff,64</backgroundcolor>
             <bordercolor>#0000ff</bordercolor>
           </polygon>
           <type>poly</type>
           <id>Poly01</id>
-          <title>Вернуться в коридор</title>
+          <title>Выйти из аудитории</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node8}</url>
-          <target>-3.9/0.6/74.0</target>
+          <target>-0.6/2.6/74.0</target>
         </hotspot>
       </hotspots>
       <output/>
       <streetview/>
       <streetviewproject/>
       <sounds/>
-      <id>node12</id>
+      <id>node14</id>
     </panorama>
-    <start>node1</start>
   </tour>
   <panorama>
     <id>master</id>
