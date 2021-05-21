@@ -146,7 +146,7 @@
           <polygon/>
           <type>point</type>
           <id>Point01</id>
-          <title>Студенческая лаборатория робототехники и мехатроники⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</title>
+          <title>Студенческая лаборатория робототехники и мехатроники  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀</title>
           <linktype>info</linktype>
           <linksubtype>unknown</linksubtype>
           <skinid>hotspot_info</skinid>
@@ -236,7 +236,7 @@
       </input>
       <viewingparameter>
         <pan>
-          <start>0</start>
+          <start>-133.02</start>
           <min>0</min>
           <max>360</max>
         </pan>
@@ -246,7 +246,7 @@
           <max>90</max>
         </tilt>
         <fov>
-          <start>70</start>
+          <start>53.46</start>
           <minunit>pixels</minunit>
           <minpixels>2</minpixels>
           <max>120</max>
@@ -262,7 +262,7 @@
         <scaletofit>1</scaletofit>
         <projection>rectilinear</projection>
         <flyinprojection>stereo</flyinprojection>
-        <defaultviewtimestamp>2021-05-22T01:18:01</defaultviewtimestamp>
+        <defaultviewtimestamp>2021-05-22T03:48:56</defaultviewtimestamp>
       </viewingparameter>
       <userdata>
         <capturedatetime>2021-05-20T11:16:14</capturedatetime>
@@ -878,7 +878,7 @@
           </polygon>
           <type>poly</type>
           <id>Poly03</id>
-          <title>Пройти к кабинету кафедры</title>
+          <title>Пройти к кафедре</title>
           <linktype>node</linktype>
           <linksubtype>unknown</linksubtype>
           <url>{node9}</url>

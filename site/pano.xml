@@ -1,383 +1,541 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="17956" appversion="6.1.8" start="node1">
+<tour appversion="6.1.8" start="node1" apprev="17956">
   <panorama id="node7">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="7951" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="7951">
-      <level preload="0" width="7951" predecode="0" height="7951"/>
-      <level preload="0" width="3975" predecode="0" height="3975"/>
-      <level preload="0" width="1987" predecode="0" height="1987"/>
-      <level preload="0" width="993" predecode="0" height="993"/>
-      <level preload="1" width="496" predecode="1" height="496"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="7951" width="7951" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="7951" width="7951"/>
+      <level predecode="0" preload="0" height="3975" width="3975"/>
+      <level predecode="0" preload="0" height="1987" width="1987"/>
+      <level predecode="0" preload="0" height="993" width="993"/>
+      <level predecode="1" preload="1" height="496" width="496"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="93.8" fov="73.99" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-36.9941"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="36.9941" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" pan="93.8" fov="73.99"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-36.9941" pan="-180" fovpixel="2"/>
+      <max tilt="36.9941" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node7" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Холл на выходе" datetime="03.03.2021 9:01" heading="0" description="Конечная локация"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node5}" title="Вернуться к аудиториям" target="24.1/13.3/58.4" description="">
-        <polystring>-128.67/19.42|-129.88/-23.1|-174.72/-23.02|-174.37/20.18</polystring>
+    <userdata tags="Панорамы" description="Конечная локация" longitude="" info="" latitude="" customnodeid="" datetime="03.03.2021 9:01" comment="" source="" title="Холл на выходе" nodeid="node7" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-85.1/-0.9/77.5" id="Poly01" title="Назад к аудиториям" url="{node13}">
+        <polystring>-128.35/19.86|-129.67/-23.63|-174.96/-23.09|-174.62/20.32</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
-  <panorama id="node5">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="4681" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="4681">
-      <level preload="0" width="4681" predecode="0" height="4681"/>
-      <level preload="0" width="2340" predecode="0" height="2340"/>
-      <level preload="0" width="1170" predecode="0" height="1170"/>
-      <level preload="0" width="585" predecode="0" height="585"/>
-      <level preload="1" width="292" predecode="1" height="292"/>
+  <panorama id="node13">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="4766" width="4766" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="4766" width="4766"/>
+      <level predecode="0" preload="0" height="2383" width="2383"/>
+      <level predecode="0" preload="0" height="1191" width="1191"/>
+      <level predecode="0" preload="0" height="595" width="595"/>
+      <level predecode="1" preload="1" height="297" width="297"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-42.4637"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="42.4637" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-1.96" projection="4" pan="95.86" fov="77.54"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-41.9506" pan="-180" fovpixel="2"/>
+      <max tilt="41.9506" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node5" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Коридор #1" datetime="05.03.2021 10:53" heading="0" description="Проход к аудиториям через коридор"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node6}" title="Назад к аудиториям" target="-170.2/0.5/77.2" description="">
-        <polystring>-305.62/32.28|-307.47/-14.35|-4.12/-14.51|-7.02/32.41</polystring>
+    <userdata tags="Панорамы" description="Проход к аудиториям через коридор" longitude="" info="" latitude="" customnodeid="" datetime="05.03.2021 10:53" comment="" source="" title="Коридор #1" nodeid="node13" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <hotspot tilt="13.95" skinid="hotspot_info" description="" pan="-210.42" target="" id="Point01" title="Студенческая лаборатория робототехники и мехатроники  ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" url=""/>
+      <polyhotspot description="" target="" id="Poly01" title="Выход в холл" url="{node7}">
+        <polystring>-248.81/14.86|-249.38/-14.77|-275.61/-15.25|-275.86/-15.22|-275.97/-13.12|-277.68/-12.54|-277.66/14.44</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node7}" title="Пройти к холлу" target="" description="">
-        <polystring>-171.54/-23.87|-144.24/-23.14|-145.58/1.62|-170.81/1.67</polystring>
+      <polyhotspot description="" target="-170.4/0.5/77.2" id="Poly02" title="Назад по коридору" url="{node6}">
+        <polystring>-57.5/21.31|-58.24/-23.25|-110.86/-23.32|-111.42/21.31</polystring>
       </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-104.78" title="К4-206:Студенческая лаборатория робототехники и мехатроники ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" target="" description="" tilt="6.02"/>
+      <polyhotspot description="" target="" id="Poly03" title="Войти в аудиторию" url="{node19}">
+        <polystring>-150.79/27.09|-150.65/-37.53|-172.26/-39.21|-177.95/-39.22|-196.25/-37.96|-196.69/26.94</polystring>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node19">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="7574" width="7574" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="7574" width="7574"/>
+      <level predecode="0" preload="0" height="3787" width="3787"/>
+      <level predecode="0" preload="0" height="1893" width="1893"/>
+      <level predecode="0" preload="0" height="946" width="946"/>
+      <level predecode="1" preload="1" height="473" width="473"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0" projection="4" pan="-133.02" fov="53.46"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-41.9505" pan="-180" fovpixel="2"/>
+      <max tilt="41.9505" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="20.05.2021 11:16" comment="" source="" title="Аудитория 206" nodeid="node19" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="64.3/-3.2/77.5" id="Poly01" title="Выйти из аудитории" url="{node13}">
+        <polystring>-245.85/-19.96|-227.47/-21.19|-227.28/-13.91|-227.7/-13.86|-227.71/-13.34|-226.53/-10.98|-226.87/19.7|-246.65/18.29</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node6">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6670" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6670">
-      <level preload="0" width="6670" predecode="0" height="6670"/>
-      <level preload="0" width="3335" predecode="0" height="3335"/>
-      <level preload="0" width="1667" predecode="0" height="1667"/>
-      <level preload="0" width="833" predecode="0" height="833"/>
-      <level preload="1" width="416" predecode="1" height="416"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6670" width="6670" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6670" width="6670"/>
+      <level predecode="0" preload="0" height="3335" width="3335"/>
+      <level predecode="0" preload="0" height="1667" width="1667"/>
+      <level predecode="0" preload="0" height="833" width="833"/>
+      <level predecode="1" preload="1" height="416" width="416"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="9.91" fov="77.19" projection="4" tilt="0.59"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-45.3503"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="45.3503" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0.59" projection="4" pan="9.91" fov="77.19"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-45.3503" pan="-180" fovpixel="2"/>
+      <max tilt="45.3503" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node6" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Коридор #2" datetime="11.03.2021 14:26" heading="0" description="Проход к аудиториям через коридор"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node2}" title="Назад по коридору" target="-143.4/-0.0/70.0" description="">
+    <userdata tags="Панорамы" description="Проход к аудиториям через коридор" longitude="" info="" latitude="" customnodeid="" datetime="11.03.2021 14:26" comment="" source="" title="Коридор #2" nodeid="node6" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-143.4/-0.0/70.0" id="Poly01" title="Назад по коридору" url="{node2}">
         <polystring>-183.51/17.72|-184.43/-11.86|-155.68/-12.77|-154.93/16.85</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node5}" title="Далее к аудиториям" target="-157.2/-7.5/70.0" description="">
-        <polystring>-327.47/20.57|-325.49/-20.69|-14.29/-22.03|-12.96/20.15</polystring>
+      <polyhotspot description="" target="" id="Poly02" title="Далее к аудиториям" url="{node13}">
+        <polystring>-12.55/-20.7|-327.7/-20.7|-328.34/19.45|-13.81/18.22</polystring>
       </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-103.85" title="К4-216: Аудитория информатики и информационных технологий, методики их преподавания" target="" description="" tilt="12.38"/>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-258.86" title="К4-207: Аудитория визуальных сред программирования и СУБД ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" target="" description="" tilt="17.63"/>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-22.64" title="К4-217: Лаборатория физики ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " target="" description="" tilt="7.59"/>
+      <polyhotspot description="" target="" id="Poly03" title="Войти в аудиторию" url="{node16}">
+        <polystring>-265.28/30.65|-263.67/-39.45|-314.17/-29.24|-315.48/20.47</polystring>
+      </polyhotspot>
+      <polyhotspot description="" target="" id="Poly04" title="Войти в аудиторию" url="{node17}">
+        <polystring>-108.7/24.08|-109.91/-36.75|-135.32/-28.6|-133.86/17.84</polystring>
+      </polyhotspot>
+      <polyhotspot description="" target="" id="Poly05" title="Войти в аудиторию" url="{node18}">
+        <polystring>-24.83/16.83|-24.39/-28.32|-47.76/-36.53|-48.1/22.96</polystring>
+      </polyhotspot>
+      <hotspot tilt="12.38" skinid="hotspot_info" description="" pan="-103.85" target="" id="Point01" title="К4-216: Аудитория информатики и информационных технологий, методики их преподавания" url=""/>
+      <hotspot tilt="17.63" skinid="hotspot_info" description="" pan="-258.86" target="" id="Point01" title="К4-207: Аудитория визуальных сред программирования и СУБД ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" url=""/>
+      <hotspot tilt="7.59" skinid="hotspot_info" description="" pan="-22.64" target="" id="Point01" title="К4-217: Лаборатория физики ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " url=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node16">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="8045" width="8045" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="8045" width="8045"/>
+      <level predecode="0" preload="0" height="4022" width="4022"/>
+      <level predecode="0" preload="0" height="2011" width="2011"/>
+      <level predecode="0" preload="0" height="1005" width="1005"/>
+      <level predecode="1" preload="1" height="502" width="502"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="5.56" projection="4" pan="57.08" fov="63.71"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-38.4543" pan="-180" fovpixel="2"/>
+      <max tilt="38.4543" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="15.05.2021 14:08" comment="" source="" title="Аудитория 207" nodeid="node16" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-77.3/-0.6/77.2" id="Poly01" title="Выйти из аудитории" url="{node6}">
+        <polystring>-171.29/13.4|-170.85/-17.03|-187.85/-20.67|-187.79/-18.6|-188.59/-18.14|-188.68/-16.22|-189.13/-15.65|-189.39/-14.67|-190.3/-15.33|-191.29/-14.93|-191.75/15.73</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node17">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6787" width="6787" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6787" width="6787"/>
+      <level predecode="0" preload="0" height="3393" width="3393"/>
+      <level predecode="0" preload="0" height="1696" width="1696"/>
+      <level predecode="0" preload="0" height="848" width="848"/>
+      <level predecode="1" preload="1" height="424" width="424"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0.09" projection="4" pan="-83.99" fov="76.91"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-43.3038" pan="-180" fovpixel="2"/>
+      <max tilt="43.3038" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="15.05.2021 14:42" comment="" source="" title="Аудитория 216" nodeid="node17" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="67.3/-0.8/77.2" id="Poly01" title="Выйти из аудитории" url="{node6}">
+        <polystring>-149.43/16.77|-150.7/-23.23|-168.4/-20.87|-167.42/15.92</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node18">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="7099" width="7099" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="7099" width="7099"/>
+      <level predecode="0" preload="0" height="3549" width="3549"/>
+      <level predecode="0" preload="0" height="1774" width="1774"/>
+      <level predecode="0" preload="0" height="887" width="887"/>
+      <level predecode="1" preload="1" height="443" width="443"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="4.86" projection="4" pan="112.55" fov="71.92"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-43.5675" pan="-180" fovpixel="2"/>
+      <max tilt="43.5675" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="21.05.2021 12:17" comment="" source="" title="Аудитория 217" nodeid="node18" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="130.9/5.4/77.2" id="Poly01" title="Выйти из аудитории" url="{node6}">
+        <polystring>-129.16/-22.03|-145.75/-24.32|-145.21/-23.15|-145.17/-21.93|-146.4/-21.33|-147.35/-21.13|-148.03/16.6|-129.82/15.58</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node2">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6803" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6803">
-      <level preload="0" width="6803" predecode="0" height="6803"/>
-      <level preload="0" width="3401" predecode="0" height="3401"/>
-      <level preload="0" width="1700" predecode="0" height="1700"/>
-      <level preload="0" width="850" predecode="0" height="850"/>
-      <level preload="1" width="425" predecode="1" height="425"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6803" width="6803" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6803" width="6803"/>
+      <level predecode="0" preload="0" height="3401" width="3401"/>
+      <level predecode="0" preload="0" height="1700" width="1700"/>
+      <level predecode="0" preload="0" height="850" width="850"/>
+      <level predecode="1" preload="1" height="425" width="425"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="33.66" fov="73.99" projection="4" tilt="0.22"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-45.5962"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="45.5962" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="0.22" projection="4" pan="33.66" fov="73.99"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-45.5962" pan="-180" fovpixel="2"/>
+      <max tilt="45.5962" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node2" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Коридор #3" datetime="12.03.2021 10:56" heading="0" description="Проход к аудиториям через коридор"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node1}" title="Вернуться в холл" target="-135.1/-3.7/70.0" description="">
+    <userdata tags="Панорамы" description="Проход к аудиториям через коридор" longitude="" info="" latitude="" customnodeid="" datetime="12.03.2021 10:56" comment="" source="" title="Коридор #3" nodeid="node2" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-135.1/-3.7/70.0" id="Poly01" title="Вернуться в холл" url="{node1}">
         <polystring>-121.97/21.66|-123.71/-19.44|-157.27/-19.76|-155.88/22.51</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node6}" title="Далее к аудиториям" target="" description="">
+      <polyhotspot description="" target="" id="Poly02" title="Далее к аудиториям" url="{node6}">
         <polystring>-306.74/15.92|-306.39/-14.96|-339.01/-15.95|-340.84/16.03</polystring>
       </polyhotspot>
+      <polyhotspot description="" target="-125.8/2.7/65.7" id="Poly03" title="Пройти к кафедре" url="{node9}">
+        <polystring>-166.33/18.92|-156.43/12.78|-157.1/-7.12|-167.09/-15.15</polystring>
+      </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node1">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6825" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6825">
-      <level preload="0" width="6825" predecode="0" height="6825"/>
-      <level preload="0" width="3412" predecode="0" height="3412"/>
-      <level preload="0" width="1706" predecode="0" height="1706"/>
-      <level preload="0" width="853" predecode="0" height="853"/>
-      <level preload="1" width="426" predecode="1" height="426"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6825" width="6825" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6825" width="6825"/>
+      <level predecode="0" preload="0" height="3412" width="3412"/>
+      <level predecode="0" preload="0" height="1706" width="1706"/>
+      <level predecode="0" preload="0" height="853" width="853"/>
+      <level predecode="1" preload="1" height="426" width="426"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="93.83" fov="70" projection="4" tilt="-2.58"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-43.3038"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="43.3038" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-2.58" projection="4" pan="93.83" fov="70"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-43.3038" pan="-180" fovpixel="2"/>
+      <max tilt="43.3038" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node1" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Холл" datetime="09.03.2021 13:21" heading="0" description="Стартовая локация"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node3}" title="Пройти к аудиториям" target="" description="">
+    <userdata tags="Панорамы" description="Стартовая локация" longitude="" info="" latitude="" customnodeid="" datetime="09.03.2021 13:21" comment="" source="" title="Холл" nodeid="node1" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="" id="Poly01" title="Пройти к аудиториям" url="{node3}">
         <polystring>-93.79/9.09|-94.31/-12.79|-109.54/-11.55|-109.19/9.03</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node2}" title="Пройти к аудиториям" target="" description="">
+      <polyhotspot description="" target="" id="Poly02" title="Пройти к аудиториям" url="{node2}">
         <polystring>-301.19/14.6|-300.51/-14.78|-335.85/-21.7|-336.93/18.12</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly03" url="{node9}" title="Пройти далее" target="" description="">
+      <polyhotspot description="" target="" id="Poly03" title="Пройти далее" url="{node9}">
         <polystring>-255.2/13.65|-254.8/-17.96|-272.61/-18.3|-272.97/13.43</polystring>
       </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-173.29" title="К4-209: Аудитория информационных систем и технологий" target="" description="" tilt="9.7"/>
+      <polyhotspot description="" target="" id="Poly04" title="Войти в аудиторию" url="{node15}">
+        <polystring>-143.82/15.33|-143.86/-21.85|-164.74/-24.64|-164.83/16.92</polystring>
+      </polyhotspot>
+      <hotspot tilt="9.7" skinid="hotspot_info" description="" pan="-173.29" target="" id="Point01" title="К4-209: Аудитория информационных систем и технологий" url=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node9">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="7496" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="7496">
-      <level preload="0" width="7496" predecode="0" height="7496"/>
-      <level preload="0" width="3748" predecode="0" height="3748"/>
-      <level preload="0" width="1874" predecode="0" height="1874"/>
-      <level preload="0" width="937" predecode="0" height="937"/>
-      <level preload="1" width="468" predecode="1" height="468"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="7496" width="7496" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="7496" width="7496"/>
+      <level predecode="0" preload="0" height="3748" width="3748"/>
+      <level predecode="0" preload="0" height="1874" width="1874"/>
+      <level predecode="0" preload="0" height="937" width="937"/>
+      <level predecode="1" preload="1" height="468" width="468"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-135.78" fov="65.67" projection="4" tilt="5.33"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-42.4992"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="42.4992" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="5.33" projection="4" pan="-135.78" fov="65.67"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-42.4992" pan="-180" fovpixel="2"/>
+      <max tilt="42.4992" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node9" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="У кабинета кафедры" datetime="09.03.2021 12:55" heading="0" description="Локация у кабинета кафедры"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node1}" title="Назад" target="-84.6/-4.0/70.0" description="">
+    <userdata tags="Панорамы" description="Локация у кабинета кафедры" longitude="" info="" latitude="" customnodeid="" datetime="09.03.2021 12:55" comment="" source="" title="У кабинета кафедры" nodeid="node9" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-84.6/-4.0/70.0" id="Poly01" title="Назад" url="{node1}">
         <polystring>-348.93/15.17|-348.28/-23.85|-10.77/-24.1|-10.91/15.07</polystring>
       </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_photo" url="" pan="-289.49" title="" target="" description="" tilt="-13.44"/>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-109.54" title="К4-208: Кафедра информатики и методики преподавания информатики" target="" description="" tilt="10.65"/>
+      <hotspot tilt="-13.44" skinid="hotspot_photo" description="" pan="-289.49" target="" id="Point01" title="" url=""/>
+      <hotspot tilt="10.54" skinid="hotspot_info" description="" pan="-109.85" target="" id="Point01" title="К4-208: Кафедра информатики и методики преподавания информатики" url=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node15">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="7611" width="7611" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="7611" width="7611"/>
+      <level predecode="0" preload="0" height="3805" width="3805"/>
+      <level predecode="0" preload="0" height="1902" width="1902"/>
+      <level predecode="0" preload="0" height="951" width="951"/>
+      <level predecode="1" preload="1" height="475" width="475"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="4.12" projection="4" pan="-176.21" fov="70"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-41.3924" pan="-180" fovpixel="2"/>
+      <max tilt="41.3924" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="11.05.2021 15:41" comment="" source="" title="Аудитория 209" nodeid="node15" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="5.9/-0.3/70.0" id="Poly01" title="Выйти из аудитории" url="{node1}">
+        <polystring>-67.13/-20.4|-67.35/-19.57|-69.3/-19.02|-69.97/-18.71|-70.03/-17.65|-68.97/-11.16|-69.13/-8.51|-68.24/13.32|-52.88/11.94|-54.07/-20.32|-67.49/-21.9|-67.98/-20.97</polystring>
+      </polyhotspot>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node3">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6781" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6781">
-      <level preload="0" width="6781" predecode="0" height="6781"/>
-      <level preload="0" width="3390" predecode="0" height="3390"/>
-      <level preload="0" width="1695" predecode="0" height="1695"/>
-      <level preload="0" width="847" predecode="0" height="847"/>
-      <level preload="1" width="423" predecode="1" height="423"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6781" width="6781" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6781" width="6781"/>
+      <level predecode="0" preload="0" height="3390" width="3390"/>
+      <level predecode="0" preload="0" height="1695" width="1695"/>
+      <level predecode="0" preload="0" height="847" width="847"/>
+      <level predecode="1" preload="1" height="423" width="423"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-109.09" fov="86.61" projection="4" tilt="-3.49"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-46.7934"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="46.7934" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-3.49" projection="4" pan="-109.09" fov="86.61"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-46.7934" pan="-180" fovpixel="2"/>
+      <max tilt="46.7934" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node3" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Коридор #4" datetime="18.03.2021 14:26" heading="0" description="Проход к аудиториям через коридор"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node1}" title="Вернуться в холл" target="96.0/-2.6/70.0" description="">
+    <userdata tags="Панорамы" description="Проход к аудиториям через коридор" longitude="" info="" latitude="" customnodeid="" datetime="18.03.2021 14:26" comment="" source="" title="Коридор #4" nodeid="node3" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="96.0/-2.6/70.0" id="Poly01" title="Вернуться в холл" url="{node1}">
         <polystring>-293.32/4.94|-293.68/-15.85|-278.49/-15.81|-278.57/4.92</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly02" url="{node4}" title="Далее к аудиториям" target="" description="">
+      <polyhotspot description="" target="" id="Poly02" title="Далее к аудиториям" url="{node4}">
         <polystring>-98.94/12.3|-98.62/-9.23|-116.22/-9.98|-116.7/12.23</polystring>
       </polyhotspot>
-      <polyhotspot id="Poly03" url="{node10}" title="Войти в аудиторию" target="" description="">
+      <polyhotspot description="" target="" id="Poly03" title="Войти в аудиторию" url="{node10}">
         <polystring>-129.43/17.28|-128.51/-24.85|-142.52/-34.8|-143.56/23.89</polystring>
       </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-153.28" title="К4-210: Аудитория операционных систем и сетевых технологий ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" target="" description="" tilt="15.24"/>
+      <hotspot tilt="15.24" skinid="hotspot_info" description="" pan="-153.28" target="" id="Point01" title="К4-210: Аудитория операционных систем и сетевых технологий ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" url=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
-  </panorama>
-  <panorama id="node4">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6819" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6819">
-      <level preload="0" width="6819" predecode="0" height="6819"/>
-      <level preload="0" width="3409" predecode="0" height="3409"/>
-      <level preload="0" width="1704" predecode="0" height="1704"/>
-      <level preload="0" width="852" predecode="0" height="852"/>
-      <level preload="1" width="426" predecode="1" height="426"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-139.58" fov="86.61" projection="4" tilt="-3.72"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-47.0269"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="47.0269" fovfisheye="360"/>
-    </view>
-    <userdata nodeid="node4" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Коридор #5" datetime="18.03.2021 14:54" heading="0" description="Проход к аудиториям через коридор"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node3}" title="Назад по коридору" target="73.4/-2.3/70.0" description="">
-        <polystring>-305.63/15.63|-305.61/-14.23|-331.81/-15.24|-332.96/15.69</polystring>
-      </polyhotspot>
-      <polyhotspot id="Poly02" url="{node8}" title="Далее к аудиториям" target="" description="">
-        <polystring>-125.97/17.24|-126.46/-15.71|-153.9/-15.86|-153.99/17.3</polystring>
-      </polyhotspot>
-      <polyhotspot id="Poly03" url="{node11}" title="Войти в аудиторию" target="" description="">
-        <polystring>-184.71/28.4|-183.73/-36.81|-165.01/-27.03|-164.84/19.94</polystring>
-      </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-199.49" title="К4-211: Аудитория технологий и программирования ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" target="" description="" tilt="19.39"/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
-  </panorama>
-  <panorama id="node8">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6602" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6602">
-      <level preload="0" width="6602" predecode="0" height="6602"/>
-      <level preload="0" width="3301" predecode="0" height="3301"/>
-      <level preload="0" width="1650" predecode="0" height="1650"/>
-      <level preload="0" width="825" predecode="0" height="825"/>
-      <level preload="1" width="412" predecode="1" height="412"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-138.6" fov="73.99" projection="4" tilt="-2.31"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-47.2579"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="47.2579" fovfisheye="360"/>
-    </view>
-    <userdata nodeid="node8" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Коридор #6" datetime="18.03.2021 15:28" heading="0" description="Проход к аудиториям через коридор"/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node4}" title="Назад к аудиториям" target="41.0/1.1/86.6" description="">
-        <polystring>-307.58/15.06|-307.66/-13.34|-332.79/-13.74|-332.71/15.09</polystring>
-      </polyhotspot>
-      <polyhotspot id="Poly02" url="{node12}" title="Войти в аудиторию" target="" description="">
-        <polystring>-167.92/22.89|-166.86/-29.95|-191.28/-40.4|-191.38/31.43</polystring>
-      </polyhotspot>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-210.45" title="К4-212: Аудитория информатики и информационных технологий ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" target="" description="" tilt="21.15"/>
-      <hotspot id="Point01" skinid="hotspot_info" url="" pan="-40.75" title="К4-213: Серверная ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " target="" description="" tilt="18.77"/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node10">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6401" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6401">
-      <level preload="0" width="6401" predecode="0" height="6401"/>
-      <level preload="0" width="3200" predecode="0" height="3200"/>
-      <level preload="0" width="1600" predecode="0" height="1600"/>
-      <level preload="0" width="800" predecode="0" height="800"/>
-      <level preload="1" width="400" predecode="1" height="400"/>
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6401" width="6401" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6401" width="6401"/>
+      <level predecode="0" preload="0" height="3200" width="3200"/>
+      <level predecode="0" preload="0" height="1600" width="1600"/>
+      <level predecode="0" preload="0" height="800" width="800"/>
+      <level predecode="1" preload="1" height="400" width="400"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-52.45" fov="85.2" projection="4" tilt="-2.51"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-46.0816"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="46.0816" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-2.51" projection="4" pan="-52.45" fov="85.2"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-46.0816" pan="-180" fovpixel="2"/>
+      <max tilt="46.0816" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node10" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Аудитория 210" datetime="25.03.2021 14:23" heading="0" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node3}" title="Вернуться в коридор" target="-50.2/-0.1/86.6" description="">
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="25.03.2021 14:23" comment="" source="" title="Аудитория 210" nodeid="node10" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-50.2/-0.1/86.6" id="Poly01" title="Выйти из аудитории" url="{node3}">
         <polystring>-312.14/14.62|-311.42/-22.36|-329.85/-21.85|-330.22/13.35</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
-  <panorama id="node11">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="6771" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="6771">
-      <level preload="0" width="6771" predecode="0" height="6771"/>
-      <level preload="0" width="3385" predecode="0" height="3385"/>
-      <level preload="0" width="1692" predecode="0" height="1692"/>
-      <level preload="0" width="846" predecode="0" height="846"/>
-      <level preload="1" width="423" predecode="1" height="423"/>
+  <panorama id="node4">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6819" width="6819" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6819" width="6819"/>
+      <level predecode="0" preload="0" height="3409" width="3409"/>
+      <level predecode="0" preload="0" height="1704" width="1704"/>
+      <level predecode="0" preload="0" height="852" width="852"/>
+      <level predecode="1" preload="1" height="426" width="426"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-59.98" fov="75.32" projection="4" tilt="1.43"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-44.3443"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="44.3443" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-3.72" projection="4" pan="-139.58" fov="86.61"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-47.0269" pan="-180" fovpixel="2"/>
+      <max tilt="47.0269" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node11" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Аудитория 211" datetime="27.03.2021 13:54" heading="0" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node4}" title="Вернуться в коридор" target="-96.0/1.4/86.6" description="">
+    <userdata tags="Панорамы" description="Проход к аудиториям через коридор" longitude="" info="" latitude="" customnodeid="" datetime="18.03.2021 14:54" comment="" source="" title="Коридор #5" nodeid="node4" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="73.4/-2.3/70.0" id="Poly01" title="Назад по коридору" url="{node3}">
+        <polystring>-305.63/15.63|-305.61/-14.23|-331.81/-15.24|-332.96/15.69</polystring>
+      </polyhotspot>
+      <polyhotspot description="" target="" id="Poly02" title="Далее к аудиториям" url="{node8}">
+        <polystring>-125.97/17.24|-126.46/-15.71|-153.9/-15.86|-153.99/17.3</polystring>
+      </polyhotspot>
+      <polyhotspot description="" target="" id="Poly03" title="Войти в аудиторию" url="{node11}">
+        <polystring>-184.71/28.4|-183.73/-36.81|-165.01/-27.03|-164.84/19.94</polystring>
+      </polyhotspot>
+      <hotspot tilt="19.39" skinid="hotspot_info" description="" pan="-199.49" target="" id="Point01" title="К4-211: Аудитория технологий и программирования ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" url=""/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node11">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6771" width="6771" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6771" width="6771"/>
+      <level predecode="0" preload="0" height="3385" width="3385"/>
+      <level predecode="0" preload="0" height="1692" width="1692"/>
+      <level predecode="0" preload="0" height="846" width="846"/>
+      <level predecode="1" preload="1" height="423" width="423"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="1.43" projection="4" pan="-59.98" fov="75.32"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-44.3443" pan="-180" fovpixel="2"/>
+      <max tilt="44.3443" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="27.03.2021 13:54" comment="" source="" title="Аудитория 211" nodeid="node11" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-96.0/1.4/86.6" id="Poly01" title="Выйти из аудитории" url="{node4}">
         <polystring>-333.27/11.57|-334.54/-19.42|-343.74/-20.16|-343.14/-15.88|-344.77/-15.47|-344.58/-12.67|-347.86/-10.22|-348.12/-10.43|-348.5/-10.47|-347.61/13.25</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
-  <panorama id="node12">
-    <input overlap="1" levelingpitch="0" levelbias="0.400" width="7286" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" height="7286">
-      <level preload="0" width="7286" predecode="0" height="7286"/>
-      <level preload="0" width="3643" predecode="0" height="3643"/>
-      <level preload="0" width="1821" predecode="0" height="1821"/>
-      <level preload="0" width="910" predecode="0" height="910"/>
-      <level preload="1" width="455" predecode="1" height="455"/>
+  <panorama id="node8">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="6602" width="6602" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="6602" width="6602"/>
+      <level predecode="0" preload="0" height="3301" width="3301"/>
+      <level predecode="0" preload="0" height="1650" width="1650"/>
+      <level predecode="0" preload="0" height="825" width="825"/>
+      <level predecode="1" preload="1" height="412" width="412"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="0">
-      <start pan="-23.18" fov="74.84" projection="4" tilt="1.52"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="-180" fovpixel="2" tilt="-44.0879"/>
-      <max fovstereographic="270" pan="180" fov="120" tilt="44.0879" fovfisheye="360"/>
+    <view pannorth="0" fovmode="0">
+      <start tilt="-2.31" projection="4" pan="-138.6" fov="73.99"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-47.2579" pan="-180" fovpixel="2"/>
+      <max tilt="47.2579" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
     </view>
-    <userdata nodeid="node12" author="Пащенко А.И." copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="Панорамы" title="Аудитория 212" datetime="03.04.2021 13:59" heading="0" description=""/>
-    <hotspots wordwrap="1" width="180" height="20">
-      <label bordercolor="0x000000" textalpha="1" textcolor="0x000000" backgroundalpha="1" enabled="1" border="1" wordwrap="1" width="180" backgroundcolor="0xffffff" borderalpha="1" borderradius="1" height="20" background="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1"/>
-      <polyhotspot id="Poly01" url="{node8}" title="Вернуться в коридор" target="-3.9/0.6/74.0" description="">
-        <polystring>-316.64/12.22|-315.96/-22.02|-333.88/-24.08|-334.5/12.91</polystring>
+    <userdata tags="Панорамы" description="Проход к аудиториям через коридор" longitude="" info="" latitude="" customnodeid="" datetime="18.03.2021 15:28" comment="" source="" title="Коридор #6" nodeid="node8" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="41.0/1.1/86.6" id="Poly01" title="Назад к аудиториям" url="{node4}">
+        <polystring>-307.58/15.06|-307.66/-13.34|-332.79/-13.74|-332.71/15.09</polystring>
+      </polyhotspot>
+      <polyhotspot description="" target="" id="Poly02" title="Войти в аудиторию" url="{node14}">
+        <polystring>-191.58/31.2|-190.8/-39.78|-189.7/-39.85|-167.06/-30.51|-168.01/22.82</polystring>
+      </polyhotspot>
+      <hotspot tilt="21.15" skinid="hotspot_info" description="" pan="-210.45" target="" id="Point01" title="К4-212: Аудитория информатики и информационных технологий ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" url=""/>
+      <hotspot tilt="18.77" skinid="hotspot_info" description="" pan="-40.75" target="" id="Point01" title="К4-213: Серверная ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ " url=""/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama id="node14">
+    <input leveltilesize="510" levelingroll="0" levelbiashidpi="1.000" overlap="1" height="7286" width="7286" levelingpitch="0" levelbias="0.400" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" preload="0" height="7286" width="7286"/>
+      <level predecode="0" preload="0" height="3643" width="3643"/>
+      <level predecode="0" preload="0" height="1821" width="1821"/>
+      <level predecode="0" preload="0" height="910" width="910"/>
+      <level predecode="1" preload="1" height="455" width="455"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start tilt="2.87" projection="4" pan="-91.16" fov="70"/>
+      <flyin tilt="-90" projection="9" pan="0" fov="170"/>
+      <min tilt="-44.0879" pan="-180" fovpixel="2"/>
+      <max tilt="44.0879" fovstereographic="270" pan="180" fov="120" fovfisheye="360"/>
+    </view>
+    <userdata tags="Панорамы" description="" longitude="" info="" latitude="" customnodeid="" datetime="03.04.2021 13:59" comment="" source="" title="Аудитория 212" nodeid="node14" author="Пащенко А.И." copyright="" heading="0"/>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" textalpha="1" border="1" background="1" backgroundalpha="1" height="20" bordercolor="0x000000" width="180" textcolor="0x000000" wordwrap="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1"/>
+      <polystyle mode="0" handcursor="1" backgroundalpha="0.25098" bordercolor="0x0000ff" backgroundcolor="0x0000ff" borderalpha="1"/>
+      <polyhotspot description="" target="-0.6/2.6/74.0" id="Poly01" title="Выйти из аудитории" url="{node8}">
+        <polystring>-7.85/12.15|-7.09/-21.96|-24.98/-23.93|-25/12.41</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition zoomin="0" enabled="1" zoomoutpause="1" blendtime="1" type="crossdissolve" blendcolor="0x000000" zoomfov="20" zoomout="0" softedge="0" zoomspeed="2"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control rubberband="0" lockedkeyboardzoom="0" invertcontrol="1" lockedmouse="0" hideabout="0" speedwheel="1" contextprojections="0" simulatemass="1" sensitivity="8" lockedwheel="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="1"/>
+    <transition enabled="1" type="crossdissolve" zoomfov="20" blendcolor="0x000000" zoomin="0" zoomout="0" softedge="0" blendtime="1" zoomspeed="2" zoomoutpause="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control simulatemass="1" invertcontrol="1" lockedwheel="0" contextprojections="0" rubberband="0" invertwheel="0" speedwheel="1" hideabout="0" sensitivity="8" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1" lockedkeyboardzoom="0" dblclickfullscreen="0"/>
   </panorama>
   <masternode>
-    <userdata nodeid="master" author="" copyright="" comment="" info="" latitude="" longitude="" source="" customnodeid="" tags="" title="" datetime="" heading="0" description=""/>
+    <userdata tags="" description="" longitude="" info="" latitude="" customnodeid="" datetime="" comment="" source="" title="" nodeid="master" author="" copyright="" heading="0"/>
   </masternode>
 </tour>
