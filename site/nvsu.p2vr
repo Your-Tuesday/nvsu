@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <!-- Pano2VR project file  -->
-<pano2vrconfig rev="17956" version="6.1.8">
+<pano2vrconfig version="6.1.8" rev="17956">
   <tour>
     <panorama>
       <input>
@@ -1052,7 +1052,29 @@
       <output/>
       <streetview/>
       <streetviewproject/>
-      <sounds/>
+      <sounds>
+        <sound>
+          <position>
+            <pan>-1</pan>
+            <tilt>-1</tilt>
+          </position>
+          <videorect/>
+          <type>audio</type>
+          <id>_background</id>
+          <filename>images/myuu - Memento.mp3</filename>
+          <mode>0</mode>
+          <nodechangekeep>0</nodechangekeep>
+          <locked>0</locked>
+          <pansize>10</pansize>
+          <tiltsize>10</tiltsize>
+          <fieldsize>90</fieldsize>
+          <ambientlevel>0</ambientlevel>
+          <startmutedmobile>0</startmutedmobile>
+          <level>0.5</level>
+          <loop>50</loop>
+          <copyfile>1</copyfile>
+        </sound>
+      </sounds>
       <animation>
         <sequence/>
       </animation>
